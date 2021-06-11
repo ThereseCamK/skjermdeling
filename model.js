@@ -1,4 +1,5 @@
 const model = {
+    inputsView: '',
     navBar: [
         {
             knappNavn: "bøker",
@@ -10,13 +11,26 @@ const model = {
         },
     ],
     
-    
+    inputs:{
+        nybok:{
+            forfatter: "",
+            tittel: "",
+            årstall: null,
+            sjanger: "",
+        },
+        nyMusikk:{
+            
+        }
+    }
+       
+    ,
     bøker:[
         {
             forfatter: "Jo Nesbø",
             tittel: "spøkelse",
             årstall: 1980,
             sjanger: "horror",
+           
         },
         {
             forfatter: "terje",
@@ -39,6 +53,7 @@ const model = {
             artist: "chris og co",
             album: "best of",
             årstall: 2021,
+            sanger: ["Hei", " på", " deg", " !"],
         },
     ],
 }
